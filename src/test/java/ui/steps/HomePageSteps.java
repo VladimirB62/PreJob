@@ -23,39 +23,18 @@ public class HomePageSteps implements En {
             home.titleDisplayed();
         });
 
-//        And("Check Telegram QR-code",()->{
-//            home.telegramQrDisplayed();
-//        });
-//
-//        And("Check Telegram Link",()->{
-//            home.telegramLinkDisplayed();
-//        });
-//
-//        And("I choose profession",()->{
-//            home.chooseProfession();
-//        });
+        And("Check Telegram QR-code",()->{
+           home.telegramQrDisplayed();
+       });
+
+        And("Check Telegram Link",()->{
+            home.telegramLinkDisplayed();
+        });
+
+        And("I choose profession",()->{
+            home.chooseProfession();
+        });
 
     }
 }
 
-//
-//        When("Click on Login or register button",() ->{
-//            home.clickOnLoginOrRegisterButton();
-//        });
-//
-//        Then("Logout button displayed",() ->{
-//            home.logoutButtonDisplayed().should(exist);
-//        });
-//
-//        When("Click on Logout button",() ->{
-//            home.clickOnLogoutButton();
-//        });
-//
-//        Then("Login or register button displayed",() ->{
-//            home.loginOrRegisterButtonDisplayed().should(exist);
-//        });
-//
-//        When("Click on All products link",() ->{
-//            home.clickOnAllProductsLink();
-//        });
-//    }

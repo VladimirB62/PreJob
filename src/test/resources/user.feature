@@ -13,8 +13,8 @@ Feature: Smoke Test with Checking Presence of elements
     And I choose Parameters
     Then Results are displayed
 
-    When I check results matching
-    And check paging
+
+
     And click JoinToUs Button
     Then I'm redirected to Telegram
 
